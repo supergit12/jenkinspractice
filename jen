@@ -11,7 +11,7 @@ public class Test70 {
 
 	@Test(priority=1)
 	public void method1() throws Exception  {
-                //open browser
+                //open chrome browser
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
